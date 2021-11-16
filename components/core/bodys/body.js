@@ -1,12 +1,17 @@
 import React from 'react'
 import Sidenav from '../nav/sidenav'
 import ImgSlide from '../sliders/images'
-
+import Popular from '../products/popular'
+import Brand from '../products/brand'
+import Newlest from '../products/newlest'
+import Promotion from '../products/promotion'
+import Smartwatch from '../products/smartwatch'
+import HpSk from '../products/hpSk'
 
 function body() {
     return (
         <div>
-            <section class="d-flex flex-column align-items-center w-100">
+            <section class="d-flex flex-column align-items-center ">
                 <div class="container">
                     <div class="row align-items-start">
                         <div class="col-2">
@@ -17,17 +22,131 @@ function body() {
                         </div>
                     </div>
                 </div>
-                <div>
-                    2
+                <div 
+                    style={{
+                    width: "50vw",
+                    height: "70vh",
+                    marginBottom: "25px"
+                    }}
+                    class="p-1"
+                >
+                    <Popular/>
                 </div>
-                <div>
-                    3
+                <div
+                    style={{
+                    width: "",
+                    height: "70vh"
+                    }}
+                >
+                    <Brand/>
                 </div>
-                <div>
-                    4
+                <div
+                    style={{
+                    width: "",
+                    height: "70vh",
+                    marginBottom: "30px",
+                    }}
+                >
+                    <Newlest/>
                 </div>
             </section>
-            <section>
+            <section
+                style={{
+                    backgroundColor:"#F9F9F9",
+                    height:"100vh",
+                    marginBottom: "30px",
+                }}
+            >
+                <div 
+                    style={{
+                        margin:"30px"
+                    }}
+                >
+                    <Promotion/>
+                </div>
+            </section>
+            <section
+                style={{
+                    height:"100vh"
+                }}
+            >
+                <Smartwatch/>
+            </section>
+            <section
+                style={{
+                    backgroundColor:"#F9F9F9",
+                    height:"100vh",
+                    marginBottom: "30px",
+                }}
+            >
+                <div 
+                    style={{
+                        padding:"30px"
+                    }}
+                >
+                    <HpSk/>
+                </div>
+            </section>
+            <section
+                style={{
+                    height:"100vh"
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    backgroundColor:"#F9F9F9",
+                    height:"100vh",
+                    marginBottom: "30px",
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    height:"100vh"
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    backgroundColor:"#F9F9F9",
+                    height:"100vh",
+                    marginBottom: "30px",
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    height:"100vh"
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    backgroundColor:"#F9F9F9",
+                    height:"100vh",
+                    marginBottom: "30px",
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    height:"100vh"
+                }}
+            >
+
+            </section>
+            <section
+                style={{
+                    height:"40vh"
+                }}
+            >
 
             </section>
         </div>

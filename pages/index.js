@@ -10,9 +10,24 @@ import Body from '../components/core/bodys/body'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header/>
-      <Body/>
-      <Footer/>
+      <div 
+        style={{
+        top: "0px",
+        zIndex:"4",
+        backgroundColor:"white"
+        }}
+        class="position-fixed z-index d-block w-100">
+        <Header/>
+      </div>
+      <div 
+        style={{
+        height: "150vh",
+        marginTop: "15vh",
+        }}
+        class="">
+        <Body/>
+        <Footer/>
+      </div>
     </div>
   )
 }
