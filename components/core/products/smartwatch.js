@@ -22,7 +22,7 @@ function smartwatch() {
                 <div class="col">
                     <div class="row align-items-center text-center m-5">
                     <div class="col ">
-                        <a href="#" class="btn  align-self-center">
+                        <a href="#" class="btn  align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/1.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -31,7 +31,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">  
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>  
                             <Image src="/statics/images/smartwatch/2.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -40,7 +40,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/3.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -49,7 +49,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/4.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -58,7 +58,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/5.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -69,7 +69,7 @@ function smartwatch() {
                 </div>
                 <div class="row align-items-center text-center m-5">
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/6.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -78,7 +78,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col "> 
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/7.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -87,7 +87,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/8.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -96,7 +96,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/5.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -105,7 +105,7 @@ function smartwatch() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center">
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
                             <Image src="/statics/images/smartwatch/1.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
@@ -114,6 +114,16 @@ function smartwatch() {
                         </a>
                     </div>
                 </div>
+                </div>
+                <div class="row d-flex text-center justify-content-around">
+                    <a 
+                    style={{
+                        color:"rgb(1, 3, 121)"
+                    }}
+                    class="btn w-auto" href="#"
+                    >
+                       <b>ดูทั้งหมด</b> 
+                    </a>
                 </div>
             </div>
              

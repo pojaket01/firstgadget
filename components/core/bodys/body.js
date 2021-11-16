@@ -7,6 +7,14 @@ import Newlest from '../products/newlest'
 import Promotion from '../products/promotion'
 import Smartwatch from '../products/smartwatch'
 import HpSk from '../products/hpSk'
+import Smarthome from '../products/smarthome'
+import Lifestyle from '../products/lifestyle'
+import Homeapp from '../products/homeapp'
+import Game from '../products/game'
+import Fittness from '../products/fittness'
+import Pets from '../products/pets'
+import Health from '../products/health'
+import Transport from './transport'
 
 function body() {
     return (
@@ -14,7 +22,7 @@ function body() {
             <section class="d-flex flex-column align-items-center ">
                 <div class="container">
                     <div class="row align-items-start">
-                        <div class="col-2">
+                        <div class="col-2 mx-2">
                             <Sidenav/>
                         </div>
                         <div class="col">
@@ -43,8 +51,8 @@ function body() {
                 <div
                     style={{
                     width: "",
-                    height: "70vh",
-                    marginBottom: "30px",
+                    height: "60vh",
+                    marginBottom: "50px",
                     }}
                 >
                     <Newlest/>
@@ -67,7 +75,7 @@ function body() {
             </section>
             <section
                 style={{
-                    height:"100vh"
+                    height:"85vh"
                 }}
             >
                 <Smartwatch/>
@@ -75,7 +83,7 @@ function body() {
             <section
                 style={{
                     backgroundColor:"#F9F9F9",
-                    height:"100vh",
+                    height:"90vh",
                     marginBottom: "30px",
                 }}
             >
@@ -89,65 +97,80 @@ function body() {
             </section>
             <section
                 style={{
-                    height:"100vh"
+                    height:"90vh"
                 }}
             >
-
+                <div 
+                    style={{
+                        padding:"30px"
+                    }}
+                >
+                    <Smarthome/>
+                </div>
             </section>
             <section
                 style={{
                     backgroundColor:"#F9F9F9",
-                    height:"100vh",
+                    height:"80vh",
                     marginBottom: "30px",
                 }}
             >
-
+                <div 
+                    style={{
+                        padding:"30px"
+                    }}
+                >
+                    <Lifestyle/>
+                </div>
             </section>
             <section
                 style={{
-                    height:"100vh"
+                    height:"80vh"
                 }}
             >
-
+                <Homeapp/>
             </section>
             <section
                 style={{
                     backgroundColor:"#F9F9F9",
-                    height:"100vh",
-                    marginBottom: "30px",
+                    height:"70vh",
+                    padding: "30px",
                 }}
             >
-
+                <Game/>
             </section>
             <section
                 style={{
-                    height:"100vh"
+                    height:"85vh",
+                    padding: "30px"
                 }}
             >
-
+                <Fittness/>
             </section>
             <section
                 style={{
                     backgroundColor:"#F9F9F9",
-                    height:"100vh",
-                    marginBottom: "30px",
+                    height:"90vh",
+                    padding: "30px",
                 }}
             >
-
+                <Pets/> 
             </section>
             <section
                 style={{
-                    height:"100vh"
+                    height:"85vh",
+                    padding: "20px"
                 }}
             >
-
+                <Health/>
             </section>
             <section
                 style={{
-                    height:"40vh"
+                    height:"30vh",
+                    padding: "20px"
                 }}
             >
-
+                <Transport/>
             </section>
         </div>
     )

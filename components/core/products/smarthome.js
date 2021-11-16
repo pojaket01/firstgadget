@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-function hpSk() {
+function smarthome() {
     return (
         <div class="d-flex flex-column align-items-center">
             <div class="text-center">
@@ -11,19 +11,19 @@ function hpSk() {
                     }}
                 >
                     <b>
-                        ลำโพง และหูฟัง
+                        อุปกรณ์สมาร์ทโฮม
                     </b>
                 </h1>
             </div>
             <div class="d-flex row">
                 <div class="col-2">
-                    <Image src="/statics/images/2.png" width={250} height={750}/>
+                    <Image src="/statics/images/3.png" width={250} height={600}/>
                 </div>
                 <div class="col">
                     <div class="row align-items-center text-center m-5">
                     <div class="col ">
-                        <a href="#" class="btn  align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/1.png" width={150} height={150}/>
+                        <a href="#" class="btn  align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/1.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -31,8 +31,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>  
-                            <Image src="/statics/images/voice/2.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>  
+                            <Image src="/statics/images/smarthome/2.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -40,8 +40,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/3.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/3.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -49,8 +49,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/4.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/4.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -58,8 +58,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/5.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/5.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -69,8 +69,8 @@ function hpSk() {
                 </div>
                 <div class="row align-items-center text-center m-5">
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/3.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/5.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -78,8 +78,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col "> 
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/5.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/4.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -87,8 +87,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/4.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/3.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -96,8 +96,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/1.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/2.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -105,8 +105,8 @@ function hpSk() {
                         </a>
                     </div>
                     <div class="col ">
-                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#FFFFFF" ,borderRadius:"20px"}}>
-                            <Image src="/statics/images/voice/2.png" width={150} height={150}/>
+                        <a href="#" class="btn align-self-center" style={{backgroundColor:"#F9F9F9" ,borderRadius:"20px"}}>
+                            <Image src="/statics/images/smarthome/1.png" width={150} height={150}/>
                             <div class="card-body">
                                 <p class="card-text">This is a longe</p>
                                 <p class="card-text"><small class="text-muted">350 Baht.</small></p>
@@ -125,9 +125,10 @@ function hpSk() {
                        <b>ดูทั้งหมด</b> 
                     </a>
                 </div>
-            </div> 
+            </div>
+             
         </div>
     )
 }
 
-export default hpSk
+export default smarthome

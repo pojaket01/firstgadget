@@ -25,7 +25,16 @@ function promotion() {
                 <Image src="/statics/images/s22.PNG" class="me-2" width={625} height={250}/>
                 <Image src="/statics/images/s23.PNG" width={625} height={250}/>
             </div>
-            
+            <div class="row d-flex text-center justify-content-around">
+                    <a 
+                    style={{
+                        color:"rgb(1, 3, 121)"
+                    }}
+                    class="btn w-auto" href="#"
+                    >
+                       <b>ดูทั้งหมด</b> 
+                    </a>
+                </div>
         </div>
     )
 }

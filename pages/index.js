@@ -21,7 +21,6 @@ export default function Home() {
       </div>
       <div 
         style={{
-        height: "150vh",
         marginTop: "15vh",
         }}
         class="">
